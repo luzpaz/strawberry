@@ -276,6 +276,7 @@ class MainWindow : public QMainWindow, public PlatformInterface {
 
  public slots:
   void CommandlineOptionsReceived(const QByteArray &string_options);
+  void CommandlineOptionsReceived(const quint32 instanceId, const QByteArray &string_options);
   void Raise();
 
  private:

@@ -2459,6 +2459,13 @@ void MainWindow::CommandlineOptionsReceived(const QByteArray &string_options) {
 
 }
 
+void MainWindow::CommandlineOptionsReceived(const quint32 instanceId, const QByteArray &string_options) {
+
+   Q_UNUSED(instanceId);
+  CommandlineOptionsReceived(string_options);
+
+}
+
 void MainWindow::CommandlineOptionsReceived(const CommandlineOptions &options) {
 
   switch (options.player_action()) {
