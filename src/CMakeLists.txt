@@ -1123,6 +1123,15 @@ target_include_directories(strawberry_lib PUBLIC
   ${SINGLEAPPLICATION_INCLUDE_DIRS}
 )
 
+if(USE_MIMALLOC)
+  if(MSVC)
+    target_link_libraries(strawberry_lib PUBLIC mimalloc)
+  else()
+    target_include_directories(strawberry_lib PUBLIC ${MIMALLOC_INCLUDE_DIRS})
+    target_link_libraries(strawberry_lib PUBLIC ${CMAKE_BINARY_DIR}/3rdparty/mimalloc/mimalloc.o)
+  endif()
+endif()
+
 target_link_libraries(strawberry_lib PUBLIC
   ${CMAKE_THREAD_LIBS_INIT}
   ${GLIB_LIBRARIES}

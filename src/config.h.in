@@ -6,6 +6,7 @@
 #define CMAKE_EXECUTABLE_SUFFIX "${CMAKE_EXECUTABLE_SUFFIX}"
 
 #cmakedefine HAVE_BACKTRACE
+#cmakedefine HAVE_MIMALLOC
 #cmakedefine HAVE_GIO
 #cmakedefine HAVE_GIO_UNIX
 #cmakedefine HAVE_DBUS

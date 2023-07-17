@@ -49,8 +49,22 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+if(LINUX OR MSVC)
+  set(USE_MIMALLOC_DEFAULT ON)
+else()
+  set(USE_MIMALLOC_DEFAULT OFF)
+endif()
+option(USE_MIMALLOC "Use mimalloc" ${USE_MIMALLOC_DEFAULT})
+
 if(MSVC)
   list(APPEND COMPILE_OPTIONS /MP)
+  if(USE_MIMALLOC)
+    if(CMAKE_BUILD_TYPE MATCHES "Release" OR CMAKE_BUILD_TYPE MATCHES "release" OR CMAKE_BUILD_TYPE MATCHES "RelWithDebInfo")
+      list(APPEND COMPILE_OPTIONS /MD)
+    else()
+      list(APPEND COMPILE_OPTIONS /MDd)
+    endif()
+  endif()
 else()
   list(APPEND COMPILE_OPTIONS
     $<$<COMPILE_LANGUAGE:C>:-std=c11>
@@ -110,6 +124,10 @@ if(NOT Boost_FOUND)
   find_package(Boost REQUIRED)
 endif()
 find_package(ICU COMPONENTS uc i18n REQUIRED)
+if(USE_MIMALLOC AND MSVC)
+  find_package(mimalloc REQUIRED)
+  set(HAVE_MIMALLOC ON)
+endif()
 find_package(Protobuf CONFIG)
 if(NOT Protobuf_FOUND)
   find_package(Protobuf REQUIRED)
@@ -291,6 +309,13 @@ pkg_check_modules(LIBEBUR128 IMPORTED_TARGET libebur128)
 
 if(NOT HAVE_TAGLIB AND NOT HAVE_TAGPARSER)
   message(FATAL_ERROR "You need either TagLib or TagParser!")
+endif()
+
+# mimalloc
+if(USE_MIMALLOC AND NOT MSVC)
+  set(HAVE_MIMALLOC ON)
+  add_subdirectory(3rdparty/mimalloc)
+  set(MIMALLOC_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/mimalloc/include)
 endif()
 
 # SingleApplication

@@ -48,6 +48,9 @@
   !define build_type "-Debug"
 !endif
 
+!if "@HAVE_MIMALLOC@" == "1"
+  !define mimalloc
+!endif
 
 !ifndef compiler
   !error "Missing compiler."
@@ -475,6 +478,10 @@ Section "Strawberry" Strawberry
   File "pcre2-16.dll"
   File "twolame.dll"
   File "zlib.dll"
+  !ifdef mimalloc
+    File "mimalloc.dll"
+    File "mimalloc-redirect.dll"
+  !endif
 !endif
 !ifdef debug
   File "freetyped.dll"
@@ -485,6 +492,10 @@ Section "Strawberry" Strawberry
   File "pcre2-16d.dll"
   File "twolamed.dll"
   File "zlibd.dll"
+  !ifdef mimalloc
+    File "mimalloc-debug.dll"
+    File "mimalloc-redirect.dll"
+  !endif
 !endif
 
   ; Used by libfftw3-3.dll because fftw is compiled with MinGW.
