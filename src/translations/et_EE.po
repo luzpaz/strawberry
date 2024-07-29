@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: strawberrymusicplayer\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2024-07-29 11:14\n"
+"PO-Revision-Date: 2024-07-29 21:22\n"
 
 #: playlist/playlistlistview.cpp:51
 msgid "\n\n"
@@ -51,13 +51,13 @@ msgstr " %1 otseteid kasutatakse tavaliselt MPRIS ja KGlobalAccel kaudu."
 #: ../../build-qt6dev/src/ui_transcoderoptionsasf.h:76
 #: ../../build-qt6dev/src/ui_transcoderoptionsmp3.h:195
 msgid " kbps"
-msgstr ""
+msgstr " kbps"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:689
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:714
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:717
 msgid " ms"
-msgstr ""
+msgstr " ms"
 
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:441
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:446
@@ -66,7 +66,7 @@ msgstr " punkti"
 
 #: ../../build-qt6dev/src/ui_behavioursettingspage.h:356
 msgid " s"
-msgstr ""
+msgstr " s"
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:411
 #: ../../build-qt6dev/src/ui_notificationssettingspage.h:486
@@ -85,7 +85,7 @@ msgstr "%1 kraasija autentimine"
 #: context/contextview.cpp:419
 #, qt-format
 msgid "%1 album"
-msgstr ""
+msgstr "%1 album"
 
 #: context/contextview.cpp:420
 #, qt-format
@@ -804,7 +804,7 @@ msgstr "Alusta alati esitust"
 
 #: device/gpodloader.cpp:81
 msgid "An error occurred loading the iTunes database"
-msgstr ""
+msgstr "iTunesi andmebaasi laadimisel tekkis viga"
 
 #: moodbar/moodbarrenderer.cpp:168
 msgid "Angry"
@@ -1833,7 +1833,7 @@ msgstr "Kataloog"
 #: playlistparsers/playlistparser.cpp:222
 #, qt-format
 msgid "Directory %1 does not exist."
-msgstr ""
+msgstr "„%1“ kausta pole olemas."
 
 #: dialogs/saveplaylistsdialog.cpp:79
 msgid "Directory does not exist."
@@ -1940,7 +1940,7 @@ msgstr "Laadi alla albumi kaanepilte"
 
 #: musicbrainz/tagfetcher.cpp:132
 msgid "Downloading metadata"
-msgstr ""
+msgstr "Laadime alla metaandmeid"
 
 #: settings/notificationssettingspage.cpp:68
 msgid "Drag to reposition"
@@ -3604,7 +3604,7 @@ msgstr "Valikud..."
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:190
 msgid "Opus"
-msgstr ""
+msgstr "Opus"
 
 #: ../../build-qt6dev/src/ui_organizedialog.h:260
 msgid "Organize Files"
@@ -4906,7 +4906,7 @@ msgstr "Pehme rokk"
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:425
 msgid "SomaFM"
-msgstr ""
+msgstr "SomaFM"
 
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:435
 msgid "Song Lyrics"
@@ -4956,7 +4956,7 @@ msgstr "Allikas"
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:191
 msgid "Speex"
-msgstr ""
+msgstr "Speex"
 
 #: core/mainwindow.cpp:1091
 msgid "Sponsoring Strawberry"
@@ -4964,7 +4964,7 @@ msgstr "Strawberry toetamine"
 
 #: core/mainwindow.cpp:402 ../../build-qt6dev/src/ui_spotifysettingspage.h:264
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: spotify/spotifyservice.cpp:295
 msgid "Spotify Authentication"
@@ -5119,7 +5119,7 @@ msgstr "Saada kraasmed iga"
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:419
 #: ../../build-qt6dev/src/ui_subsonicsettingspage.h:243
 msgid "Subsonic"
-msgstr ""
+msgstr "Subsonic"
 
 #: subsonic/subsonicurlhandler.cpp:39
 msgid "Subsonic server URL is invalid."
@@ -5332,7 +5332,7 @@ msgstr "Seda tüüpi seadet ei toetata: %1"
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:421
 #: ../../build-qt6dev/src/ui_tidalsettingspage.h:325
 msgid "Tidal"
-msgstr ""
+msgstr "Tidal"
 
 #: ../../build-qt6dev/src/ui_tidalsettingspage.h:327
 msgid "Tidal support is not official and requires a API token from a registered application to work. We can't help you getting these."
@@ -5442,7 +5442,7 @@ msgstr "URL(id)"
 
 #: device/udisks2lister.cpp:127
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: ../../build-qt6dev/src/ui_transcoderoptionsspeex.h:226
 msgid "Ultra wide band (UWB)"
@@ -5493,7 +5493,7 @@ msgstr "Esitusloendi jaoks tundmatu faililaiend."
 #: playlistparsers/playlistparser.cpp:230
 #, qt-format
 msgid "Unknown filetype: %1"
-msgstr ""
+msgstr "Tundmatu failitüüp: %1"
 
 #: playlist/playlistmanager.cpp:264
 msgid "Unknown playlist extension"
@@ -5711,7 +5711,7 @@ msgstr ""
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:189
 msgid "Vorbis"
-msgstr ""
+msgstr "Vorbis"
 
 #: playlist/playlisttabbar.cpp:238
 #: ../../build-qt6dev/src/ui_playlistsettingspage.h:181
@@ -5724,7 +5724,7 @@ msgstr "Hoiatus: Esituskordade ja viimati mängitud lugude statistikasaidilt las
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:188
 msgid "WavPack"
-msgstr ""
+msgstr "WavPack"
 
 #: analyzer/waverubberanalyzer.cpp:24
 msgid "WaveRubber"
@@ -5779,7 +5779,7 @@ msgstr ""
 #: device/gpoddevice.cpp:284
 #, qt-format
 msgid "Writing database failed: %1"
-msgstr ""
+msgstr "Andmebaasi salvestamine ei õnnestunud: %1"
 
 #: collection/savedgroupingmanager.cpp:121 playlist/playlist.cpp:1393
 #: organize/organizedialog.cpp:116
@@ -5983,7 +5983,7 @@ msgstr "on vähem kui viimased"
 #: context/contextview.cpp:498 context/contextview.cpp:599
 #: playlist/playlistview.cpp:225 dialogs/edittagdialog.cpp:796
 msgid "kbps"
-msgstr ""
+msgstr "kbps"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:284
 msgid "less than"
@@ -6006,7 +6006,7 @@ msgstr "liiguta %n lugu"
 #: ../../build-qt6dev/src/ui_spotifysettingspage.h:275
 #: ../../build-qt6dev/src/ui_qobuzsettingspage.h:293
 msgid "ms"
-msgstr ""
+msgstr "ms"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:432
 msgid "newest first"
