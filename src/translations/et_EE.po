@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: strawberrymusicplayer\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2024-07-29 21:22\n"
+"PO-Revision-Date: 2024-07-30 10:06\n"
 
 #: playlist/playlistlistview.cpp:51
 msgid "\n\n"
@@ -106,7 +106,7 @@ msgstr "%1 esitajat"
 #: equalizer/equalizerslider.cpp:59
 #, qt-format
 msgid "%1 dB"
-msgstr ""
+msgstr "%1 dB"
 
 #: utilities/timeutils.cpp:67
 #, qt-format
@@ -181,7 +181,7 @@ msgstr "%1 üle kantud"
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:405
 #: ../../build-qt6dev/src/ui_notificationssettingspage.h:466
 msgid "%filename%"
-msgstr ""
+msgstr "%filename%"
 
 #: transcoder/transcodedialog.cpp:315
 #, c-format, qt-plural-format
@@ -206,16 +206,16 @@ msgstr "%n lugu"
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:417
 #: ../../build-qt6dev/src/ui_notificationssettingspage.h:474
 msgid "%originalyear%"
-msgstr ""
+msgstr "%originalyear%"
 
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:413
 msgid "%rating%"
-msgstr ""
+msgstr "%rating%"
 
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:409
 #: ../../build-qt6dev/src/ui_notificationssettingspage.h:470
 msgid "%url%"
-msgstr ""
+msgstr "%url%"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:653
 msgid "&About Strawberry"
@@ -385,16 +385,16 @@ msgstr "(erinevad mitme loo vahel)"
 #: ../../build-qt6dev/src/ui_albumcovermanager.h:223
 #: ../../build-qt6dev/src/ui_albumcovermanager.h:224
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../build-qt6dev/src/ui_trackslider.h:66
 #: ../../build-qt6dev/src/ui_trackslider.h:70
 msgid "0:00:00"
-msgstr ""
+msgstr "0:00:00"
 
 #: ../../build-qt6dev/src/ui_appearancesettingspage.h:548
 msgid "0px"
-msgstr ""
+msgstr "0px"
 
 #: utilities/timeutils.cpp:67
 msgid "1 day"
@@ -402,7 +402,7 @@ msgstr "1 päev"
 
 #: ../../build-qt6dev/src/ui_appearancesettingspage.h:550
 msgid "40%"
-msgstr ""
+msgstr "40%"
 
 #: smartplaylists/smartplaylistsmodel.cpp:72
 msgid "50 random tracks"
@@ -410,7 +410,7 @@ msgstr "50 juhuslikku lugu"
 
 #: ../../build-qt6dev/src/ui_spotifysettingspage.h:272
 msgid "<html><head/><body><p>The GStreamer Spotify plugin is not detected, you will not be able to stream songs from Spotify without it. See: <a href=\"https://github.com/strawberrymusicplayer/strawberry/wiki/GStreamer-Spotify-plugin\"><span style=\" text-decoration: underline; color:#0000ff;\">https://github.com/strawberrymusicplayer/strawberry/wiki/GStreamer-Spotify-plugin</span></a> for instructions on how to install the plugin.</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>GStreameri Spotify pistikprogrammi ei õnnestu tuvastada, aga Spotify voogedastus ilma selleta ei toimi. Lisateavet leiad: <a href=\"https://github.com/strawberrymusicplayer/strawberry/wiki/GStreamer-Spotify-plugin\"><span style=\" text-decoration: underline; color:#0000ff;\">https://github.com/strawberrymusicplayer/strawberry/wiki/GStreamer-Spotify-plugin</span></a> selle pistikprogrammi paigaldamise lehelt.</p></body></html>"
 
 #: ../../build-qt6dev/src/ui_organizedialog.h:268
 msgid "<p>Tokens start with %, for example: %artist %album %title </p>\n\n"
@@ -436,11 +436,11 @@ msgstr "A-Ü"
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:192
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:676
 msgid "ALSA plugin:"
-msgstr ""
+msgstr "ALSA pistikprogramm:"
 
 #: ../../build-qt6dev/src/ui_tidalsettingspage.h:331
 msgid "API Token"
@@ -448,7 +448,7 @@ msgstr "API tunnuskood"
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:193
 msgid "ASF (WMA)"
-msgstr ""
+msgstr "ASF (WMA)"
 
 #: covermanager/albumcovermanager.cpp:148
 #: covermanager/albumcoversearcher.cpp:186
@@ -701,7 +701,7 @@ msgstr "Albu&mi kaanepilt"
 #: ../../build-qt6dev/src/ui_edittagdialog.h:921
 #: ../../build-qt6dev/src/ui_trackselectiondialog.h:208
 msgid "Album"
-msgstr ""
+msgstr "Album"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:700
 msgid "Album (ideal loudness for all tracks)"
@@ -928,7 +928,7 @@ msgstr "Heli kvaliteet"
 
 #: ../../build-qt6dev/src/ui_spotifysettingspage.h:267
 msgid "Authenticate"
-msgstr ""
+msgstr "Autendi"
 
 #: tidal/tidalrequest.cpp:144 spotify/spotifyrequest.cpp:127
 #: qobuz/qobuzservice.cpp:270
@@ -959,7 +959,7 @@ msgstr "Autor ja hooldaja"
 
 #: ../../build-qt6dev/src/ui_transcoderoptionsspeex.h:225
 msgid "Auto"
-msgstr ""
+msgstr "Automaatne"
 
 #: playlist/playlistsaveoptionsdialog.cpp:41
 msgid "Automatic"
@@ -1045,7 +1045,7 @@ msgstr "Tavaline sinine"
 
 #: ../../build-qt6dev/src/ui_spotifysettingspage.h:266
 msgid "Basic authentication"
-msgstr ""
+msgstr "Lihtne autentimine"
 
 #: ../../build-qt6dev/src/ui_behavioursettingspage.h:314
 msgid "Behavior"
@@ -1057,7 +1057,7 @@ msgstr "Parim"
 
 #: playlist/playlistview.cpp:224
 msgid "Bit"
-msgstr ""
+msgstr "bitt"
 
 #: playlist/playlist.cpp:1406
 msgid "Bit Depth"
@@ -1147,11 +1147,11 @@ msgstr "CD taasesitus on võimalik ainult GStreameri mootoriga."
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:424
 msgid "CDDA"
-msgstr ""
+msgstr "CDDA"
 
 #: playlist/playlist.cpp:1420
 msgid "CUE"
-msgstr ""
+msgstr "CUE"
 
 #: ../../build-qt6dev/src/ui_lastfmimportdialog.h:157
 msgid "Cancel"
@@ -1422,7 +1422,7 @@ msgstr "Varunda strawberry.conf ja strawberry.db kataloogist ~/snap, et vältida
 #: device/gpoddevice.cpp:241
 #, qt-format
 msgid "Could not copy %1 to %2: %3"
-msgstr ""
+msgstr "%1 -> %2 kopeeruimine ei õnnestunud: %3"
 
 #: core/filesystemmusicstorage.cpp:98
 #, qt-format
@@ -1450,7 +1450,7 @@ msgstr "URL-i ei saanud avada. Ava see URL oma veebilehitseja"
 #: playlistparsers/playlistparser.cpp:192
 #, qt-format
 msgid "Could not open file %1"
-msgstr ""
+msgstr "Faili avamine ei õnnestu: %1"
 
 #: core/songloader.cpp:281
 #, qt-format
@@ -1471,12 +1471,12 @@ msgstr "Kaanepildi salvestamine faili %1 nurjus."
 #: playlist/playlist.cpp:442 dialogs/edittagdialog.cpp:1491
 #, qt-format
 msgid "Could not write metadata to %1"
-msgstr ""
+msgstr "Metaandmete salvestamine faili „%1“ ei õnnestunud"
 
 #: playlist/playlist.cpp:439 dialogs/edittagdialog.cpp:1494
 #, qt-format
 msgid "Could not write metadata to %1: %2"
-msgstr ""
+msgstr "Metaandmete salvestamine faili „%1“ ei õnnestunud: %2"
 
 #: core/songloader.cpp:499
 #, qt-format
@@ -1583,65 +1583,65 @@ msgstr "Risthajuta heli lugude käsitsi vahetamisel"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:632
 msgid "Ctrl+Alt+V"
-msgstr ""
+msgstr "Ctrl+Alt+V"
 
 #: ../../build-qt6dev/src/ui_queueview.h:134
 msgid "Ctrl+Down"
-msgstr ""
+msgstr "Ctrl+Down"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:644
 msgid "Ctrl+E"
-msgstr ""
+msgstr "Ctrl+E"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:659
 msgid "Ctrl+H"
-msgstr ""
+msgstr "Ctrl+H"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:677
 msgid "Ctrl+J"
-msgstr ""
+msgstr "Ctrl+J"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:640
 #: ../../build-qt6dev/src/ui_queueview.h:144
 msgid "Ctrl+K"
-msgstr ""
+msgstr "Ctrl+K"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:698
 msgid "Ctrl+M"
-msgstr ""
+msgstr "Ctrl+M"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:681
 msgid "Ctrl+N"
-msgstr ""
+msgstr "Ctrl+N"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:651
 msgid "Ctrl+P"
-msgstr ""
+msgstr "Ctrl+P"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:628
 msgid "Ctrl+Q"
-msgstr ""
+msgstr "Ctrl+Q"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:685
 msgid "Ctrl+S"
-msgstr ""
+msgstr "Ctrl+S"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:663
 msgid "Ctrl+Shift+A"
-msgstr ""
+msgstr "Ctrl+Shift+A"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:689
 msgid "Ctrl+Shift+O"
-msgstr ""
+msgstr "Ctrl+Shift+O"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:704
 msgid "Ctrl+T"
-msgstr ""
+msgstr "Ctrl+T"
 
 #: ../../build-qt6dev/src/ui_savedgroupingmanager.h:106
 #: ../../build-qt6dev/src/ui_queueview.h:128
 msgid "Ctrl+Up"
-msgstr ""
+msgstr "Ctrl+Up"
 
 #: ../../build-qt6dev/src/ui_collectionsettingspage.h:469
 msgid "Current disk cache in use:"
@@ -1681,7 +1681,7 @@ msgstr "Tantsumuusika"
 
 #: spotify/spotifyrequest.cpp:1371
 msgid "Data missing error"
-msgstr ""
+msgstr "Viga: andmed puuduvad"
 
 #: core/database.cpp:510
 msgid "Database corruption detected."
@@ -1808,7 +1808,7 @@ msgstr "Seadme omadused"
 
 #: ../../build-qt6dev/src/ui_spotifysettingspage.h:268
 msgid "Device credentials"
-msgstr ""
+msgstr "Selle seadme autentimiseks kasuta"
 
 #: device/deviceview.cpp:241
 msgid "Device properties..."
@@ -1893,7 +1893,7 @@ msgstr "Ära seda teadet enam näita."
 #: playlistparsers/parserbase.cpp:62
 #, qt-format
 msgid "Don't know how to handle %1"
-msgstr ""
+msgstr "Ei tea, kuidas peaks kasutama: %1"
 
 #: osd/osdbase.cpp:363 ../../build-qt6dev/src/ui_playlistsequence.h:108
 msgid "Don't repeat"
@@ -2257,27 +2257,27 @@ msgstr "%2-st kaanepildist eksporditi %1 (%3 jäeti vahele)"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:655
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:612
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:616
 msgid "F6"
-msgstr ""
+msgstr "F6"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:620
 msgid "F7"
-msgstr ""
+msgstr "F7"
 
 #: ../../build-qt6dev/src/ui_mainwindow.h:624
 msgid "F8"
-msgstr ""
+msgstr "F8"
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:187
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:715
 msgid "Fade out on pause / fade in on resume"
@@ -2315,12 +2315,12 @@ msgstr "Kaanepildi faili %1 kustutamine nurjus: %2"
 #: core/tagreaderclient.cpp:302
 #, qt-format
 msgid "Failed to load image from data for %1"
-msgstr ""
+msgstr "%1 jaoks ei õnnestunud andmetest tuvastada pildifaili"
 
 #: playlistparsers/playlistparser.cpp:245
 #, qt-format
 msgid "Failed to open %1 for writing."
-msgstr ""
+msgstr "%1 avamine salvestamiseks ei õnnestunud."
 
 #: covermanager/albumcoverchoicecontroller.cpp:185
 #, qt-format
@@ -2350,7 +2350,7 @@ msgstr "Kaanepildi salvestamine faili %1 nurjus: %2"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:704
 msgid "Fallback-gain"
-msgstr ""
+msgstr "Esitusvaljuse samm"
 
 #: ../../build-qt6dev/src/ui_transcoderoptionsflac.h:78
 #: ../../build-qt6dev/src/ui_transcoderoptionsmp3.h:198
@@ -2464,7 +2464,7 @@ msgstr "Otsi oma helikogust laule, mis vastavad määratud kriteeriumidele."
 
 #: musicbrainz/tagfetcher.cpp:80
 msgid "Fingerprinting song"
-msgstr ""
+msgstr "Sõrmejäljestame lugu"
 
 #: smartplaylists/smartplaylistwizard.cpp:93
 msgid "Finish"
@@ -2482,7 +2482,7 @@ msgstr "Sobita kaanepilt laiusega"
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:439
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:444
 msgid "Font"
-msgstr ""
+msgstr "Kirjatüüp"
 
 #: ../../build-qt6dev/src/ui_contextsettingspage.h:443
 msgid "Font for data and lyrics"
@@ -2736,7 +2736,7 @@ msgstr "Abi"
 
 #: ../../build-qt6dev/src/ui_subsonicsettingspage.h:250
 msgid "Hex"
-msgstr ""
+msgstr "Hex"
 
 #: ../../build-qt6dev/src/ui_behavioursettingspage.h:324
 msgid "Hide the main window"
@@ -2749,7 +2749,7 @@ msgstr "Kõrge"
 #: analyzer/analyzercontainer.cpp:84
 #, qt-format
 msgid "High (%1 fps)"
-msgstr ""
+msgstr "Kõrge (%1 fps)"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:691
 msgid "High watermark"
@@ -2761,7 +2761,7 @@ msgstr "tundi"
 
 #: playlist/playlistview.cpp:223
 msgid "Hz"
-msgstr ""
+msgstr "Hz"
 
 #: ../../build-qt6dev/src/ui_deviceproperties.h:372
 msgid "Icon"
@@ -2777,7 +2777,7 @@ msgstr "Ikoonid üleval"
 
 #: musicbrainz/tagfetcher.cpp:70 musicbrainz/tagfetcher.cpp:114
 msgid "Identifying song"
-msgstr ""
+msgstr "Tuvastame laulu"
 
 #: ../../build-qt6dev/src/ui_playlistsettingspage.h:197
 msgid "If activated, clicking a selected song in the playlist view will let you edit the tag value directly"
@@ -2908,11 +2908,11 @@ msgstr "Säiilita algsed failid"
 
 #: core/song.cpp:799
 msgid "LU"
-msgstr ""
+msgstr "LU"
 
 #: core/song.cpp:787
 msgid "LUFS"
-msgstr ""
+msgstr "LUFS"
 
 #: ../../build-qt6dev/src/ui_behavioursettingspage.h:327
 msgid "Language"
@@ -2955,7 +2955,7 @@ msgstr "Viimati esitamine %1 loole vastu võetud."
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:429
 msgid "Last.fm"
-msgstr ""
+msgstr "Last.fm"
 
 #: smartplaylists/smartplaylistsmodel.cpp:108
 msgid "Least favourite tracks"
@@ -2973,7 +2973,7 @@ msgstr "Kestus"
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:432
 msgid "Libre.fm"
-msgstr ""
+msgstr "Libre.fm"
 
 #: ../../build-qt6dev/src/ui_smartplaylistquerysortpage.h:137
 msgid "Limits"
@@ -2990,7 +2990,7 @@ msgstr "ListenBrainz viga: %1"
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:435
 msgid "Listenbrainz"
-msgstr ""
+msgstr "Listenbrainz"
 
 #: equalizer/equalizer.cpp:148
 msgid "Live"
@@ -3027,7 +3027,7 @@ msgstr "MTP-seadme laadimine"
 
 #: device/gpodloader.cpp:54
 msgid "Loading iPod database"
-msgstr ""
+msgstr "Laadime iPodi andmekogu"
 
 #: smartplaylists/playlistgeneratorinserter.cpp:62
 msgid "Loading smart playlist"
@@ -3110,7 +3110,7 @@ msgstr "MD5 tunnuskood (soovitatav)"
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:194
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: device/mtpconnection.cpp:100
 msgid "MTP device not found."
@@ -3486,7 +3486,7 @@ msgstr "Pole Qobuziga autentitud."
 #: spotify/spotifyservice.cpp:516 spotify/spotifyservice.cpp:568
 #: spotify/spotifyservice.cpp:620 spotify/spotifyservice.cpp:680
 msgid "Not authenticated with Spotify."
-msgstr ""
+msgstr "Pole Spotifyga autenditud."
 
 #: tidal/tidalservice.cpp:701
 msgid "Not authenticated with Tidal and reached maximum number of login attempts."
@@ -3858,7 +3858,7 @@ msgstr "Ava see URL oma veebilehitsejas"
 
 #: equalizer/equalizer.cpp:150
 msgid "Pop"
-msgstr ""
+msgstr "Pop"
 
 #: ../../build-qt6dev/src/ui_notificationssettingspage.h:485
 msgid "Popup duration"
@@ -3866,7 +3866,7 @@ msgstr "Hüpikakna kestus"
 
 #: ../../build-qt6dev/src/ui_networkproxysettingspage.h:180
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: ../../build-qt6dev/src/ui_appearancesettingspage.h:536
 msgid "Position"
@@ -3967,7 +3967,7 @@ msgstr "Pane lood juhuslikku järjekorda"
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:423
 #: ../../build-qt6dev/src/ui_qobuzsettingspage.h:281
 msgid "Qobuz"
-msgstr ""
+msgstr "Qobuz"
 
 #: ../../build-qt6dev/src/ui_qobuzsettingspage.h:283
 msgid "Qobuz support is not official and requires an API app ID and secret from a registered application to work. We can't help you getting these."
@@ -4019,7 +4019,7 @@ msgstr "Raadio (kõigil paladel võrdne valjus)"
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:427
 msgid "Radio Paradise"
-msgstr ""
+msgstr "Radio Paradise"
 
 #: core/mainwindow.cpp:391
 msgid "Radios"
@@ -4455,7 +4455,7 @@ msgstr "Salvestatud rühmituste haldur"
 
 #: playlistparsers/cueparser.cpp:395
 msgid "Saving CUE files is not supported."
-msgstr ""
+msgstr "CUE-failide salvestamine pole toetatud."
 
 #: ../../build-qt6dev/src/ui_coverssettingspage.h:317
 msgid "Saving album covers"
@@ -4789,7 +4789,7 @@ msgstr "Kuva süsteemisalve ikoonil edenemist"
 
 #: ../../build-qt6dev/src/ui_behavioursettingspage.h:318
 msgid "Show song progress on taskbar"
-msgstr ""
+msgstr "Näita loo edenemist tegumiribal"
 
 #: context/contextview.cpp:264
 msgid "Show song technical data"
@@ -4850,7 +4850,7 @@ msgstr "Suurus:"
 
 #: equalizer/equalizer.cpp:154
 msgid "Ska"
-msgstr ""
+msgstr "Ska"
 
 #: playlist/playlist.cpp:1402
 msgid "Skip Count"
@@ -4936,7 +4936,7 @@ msgstr "Lugude otsingu limiit"
 
 #: analyzer/sonogramanalyzer.cpp:31
 msgid "Sonogram"
-msgstr ""
+msgstr "Sonogram"
 
 #: ../../build-qt6dev/src/ui_trackselectiondialog.h:204
 msgid "Sorry"
@@ -4972,7 +4972,7 @@ msgstr "Spotify autentimine"
 
 #: ../../build-qt6dev/src/ui_transcoderoptionsmp3.h:199
 msgid "Standard"
-msgstr ""
+msgstr "Tavaline"
 
 #: playlist/playlisttabbar.cpp:79
 msgid "Star playlist"
@@ -5104,7 +5104,7 @@ msgstr "Venita kujutist esitusloendi täitmiseks"
 
 #: ../../build-qt6dev/src/ui_scrobblersettingspage.h:416
 msgid "Strip \"remastered\" and similar from album and title"
-msgstr ""
+msgstr "Eemalda albumi nimest ja loo pealkirjast „remastered“ ja muud sarnased sõnad"
 
 #: ../../build-qt6dev/src/ui_appearancesettingspage.h:518
 #: ../../build-qt6dev/src/ui_appearancesettingspage.h:519
@@ -5203,7 +5203,7 @@ msgstr "Tehno"
 
 #: ../../build-qt6dev/src/ui_subsonicsettingspage.h:258
 msgid "Test"
-msgstr ""
+msgstr "Testi"
 
 #: settings/subsonicsettingspage.cpp:170
 msgid "Test failed!"
@@ -5253,7 +5253,7 @@ msgstr "Sinu soovitud veebisait pole pilt!"
 
 #: streaming/streamingcollectionview.cpp:301
 msgid "The streaming collection is empty!"
-msgstr ""
+msgstr "Voogesituste kogu on tühi!"
 
 #: core/mainwindow.cpp:2983
 msgid "The version of Strawberry you've just updated to requires a full collection rescan because of the new features listed below:"
@@ -5422,7 +5422,7 @@ msgstr "Teisendamise valikud"
 
 #: analyzer/turbineanalyzer.cpp:35
 msgid "Turbine"
-msgstr ""
+msgstr "Turbine"
 
 #: ../../build-qt6dev/src/ui_dynamicplaylistcontrols.h:109
 msgid "Turn off"
@@ -5434,7 +5434,7 @@ msgstr "Tüüp"
 
 #: device/giolister.cpp:194
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #: core/commandlineoptions.cpp:219
 msgid "URL(s)"
@@ -5580,7 +5580,7 @@ msgstr "Kui esitusvaljuse tundlikkuse metainfo on failis olemas, siis kasuta sed
 
 #: settings/coverssettingspage.cpp:231 settings/coverssettingspage.cpp:348
 msgid "Use Spotify settings to authenticate."
-msgstr ""
+msgstr "Kasuta autentimiseks Spotify seadeid."
 
 #: settings/coverssettingspage.cpp:227 settings/coverssettingspage.cpp:344
 msgid "Use Tidal settings to authenticate."
@@ -5640,7 +5640,7 @@ msgstr "Kasuta süsteemi vaikeväärtust"
 
 #: ../../build-qt6dev/src/ui_collectionsettingspage.h:463
 msgid "Use various artists for compilation albums"
-msgstr ""
+msgstr "Kogumike puhul kasuta albumi esitajanimena märget „Erinevad esitajad“"
 
 #: widgets/freespacebar.cpp:70
 msgid "Used"
@@ -5707,7 +5707,7 @@ msgstr "Helitugevus %1%"
 #: ../../build-qt6dev/src/ui_behavioursettingspage.h:358
 #: ../../build-qt6dev/src/ui_behavioursettingspage.h:359
 msgid "Volume Increment"
-msgstr ""
+msgstr "Helivaljuse samm"
 
 #: ../../build-qt6dev/src/ui_transcodersettingspage.h:189
 msgid "Vorbis"
@@ -5728,7 +5728,7 @@ msgstr "WavPack"
 
 #: analyzer/waverubberanalyzer.cpp:24
 msgid "WaveRubber"
-msgstr ""
+msgstr "WaveRubber"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:455
 msgid "Weeks"
@@ -5774,7 +5774,7 @@ msgstr "Salvesta metaandmed esitusloendite salvestamisel"
 
 #: device/gpoddevice.cpp:288
 msgid "Writing database failed."
-msgstr ""
+msgstr "Andmebaasi salvestamine ei õnnestunud."
 
 #: device/gpoddevice.cpp:284
 #, qt-format
@@ -5878,7 +5878,7 @@ msgstr "Su helikogu on tühi!"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:430
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: equalizer/equalizer.cpp:157
 msgid "Zero"
@@ -5935,7 +5935,7 @@ msgstr "kanaliseks"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:274
 msgid "contains"
-msgstr ""
+msgstr "sisaldab"
 
 #: ../../build-qt6dev/src/ui_collectionsettingspage.h:453
 msgid "days"
@@ -5966,7 +5966,7 @@ msgstr "lõpus on"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:286
 msgid "equals"
-msgstr ""
+msgstr "võrdub"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:282
 msgid "greater than"
@@ -5974,7 +5974,7 @@ msgstr "suurem kui"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:677
 msgid "hw"
-msgstr ""
+msgstr "hw"
 
 #: smartplaylists/smartplaylistsearchterm.cpp:262
 msgid "in the last"
@@ -6042,11 +6042,11 @@ msgstr "valikud"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:678
 msgid "p&lughw"
-msgstr ""
+msgstr "p&lughw"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:679
 msgid "pcm"
-msgstr ""
+msgstr "pcm"
 
 #: filterparser/filterparser.cpp:471
 msgid "rating"
@@ -6060,7 +6060,7 @@ msgstr "eemalda %n lugu"
 #: filterparser/filterparser.cpp:465
 #, qt-format
 msgid "searches for all artists containing the word %1. "
-msgstr ""
+msgstr "kõikide esitajate otsing, kus leidub %1. "
 
 #: smartplaylists/smartplaylistsearchterm.cpp:434
 msgid "shortest first"
