@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: strawberrymusicplayer\n"
 "Language-Team: Estonian\n"
 "Language: et_EE\n"
-"PO-Revision-Date: 2024-07-30 10:06\n"
+"PO-Revision-Date: 2024-07-30 12:18\n"
 
 #: playlist/playlistlistview.cpp:51
 msgid "\n\n"
@@ -2202,7 +2202,7 @@ msgstr "Läbi aegade esitatud"
 
 #: widgets/freespacebar.cpp:69
 msgid "Exceeded by"
-msgstr ""
+msgstr "Ületatud"
 
 #: ../../build-qt6dev/src/ui_backendsettingspage.h:712
 msgid "Except between tracks on the same album or in the same CUE sheet"
@@ -3181,7 +3181,7 @@ msgstr "Keskmine (%1 fps)"
 #: ../../build-qt6dev/src/ui_edittagdialog.h:914
 #: ../../build-qt6dev/src/ui_streamingsearchview.h:226
 msgid "MenuPopupToolButton"
-msgstr ""
+msgstr "MenuPopupToolButton"
 
 #: ../../build-qt6dev/src/ui_messagedialog.h:118
 msgid "Message Dialog"
@@ -3902,7 +3902,7 @@ msgstr "Otsingusõnale välja nime lisamine võimaldab piirata otsingut selle v�
 
 #: core/songloader.cpp:151
 msgid "Preload function was not set for blocking operation."
-msgstr ""
+msgstr "Eellaadimise funktsionaalsus polnud määratud blokeerimiseks."
 
 #: ../../build-qt6dev/src/ui_equalizer.h:167
 msgid "Preset:"
@@ -5092,11 +5092,11 @@ msgstr "Voogesitus"
 
 #: ../../build-qt6dev/src/ui_streamingsearchview.h:223
 msgid "Streaming Search View"
-msgstr ""
+msgstr "Voogedastuse otsinguvaade"
 
 #: ../../build-qt6dev/src/ui_streamingtabsview.h:112
 msgid "Streaming Tabs View"
-msgstr ""
+msgstr "Voogedastuse kaardivaade"
 
 #: ../../build-qt6dev/src/ui_appearancesettingspage.h:544
 msgid "Stretch image to fill playlist"
